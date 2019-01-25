@@ -1,13 +1,19 @@
+// one file, one component!
+
 //Import a library to help create a component
 import React from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 // './' means current directry
 import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 
 //Create a component
-const App = () => (
   //headerText is possible to be changed anywords such as Toshowtext etc!
-  <Header headerText={'Albums'} />
+const App = () => (
+  <View>
+    <Header headerText={'Albums'} />
+    <AlbumList />
+  </View>
 );
 
 //Render it to the device
