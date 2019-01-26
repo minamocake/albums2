@@ -1,3 +1,5 @@
+// one file, one component!
+
 //Import libraries for making a component
 import React from 'react';
 import { Text, View } from 'react-native';
@@ -27,6 +29,7 @@ const styles = {
     elevation: 2,
     position: 'relative'
   },
+
   textStyle: {
     fontSize: 30
   }

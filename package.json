@@ -6,6 +6,7 @@
     "clean": "react-native-clean-project"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "16.6.3",
     "react-native": "0.57.8"
   },
